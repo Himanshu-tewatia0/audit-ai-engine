@@ -1,0 +1,38 @@
+{
+  "_metadata": {
+    "data_type": "SAMPLE",
+    "purpose": "Synthetic demonstration invoice for AuditAI prototype testing ONLY.",
+    "real_world_note": "This invoice is FICTITIOUS and deliberately contains exaggerated overcharges (26% leakage) for demonstration purposes. Real-world invoice errors typically range from 1% to 3% of total spend. Real invoices come in varied PDF formats, EDI feeds, and scanned images — not pre-structured JSON."
+  },
+  "invoice_number": "INV-9042",
+  "contract_reference": "MSA-2026-US-LOG",
+  "vendor_name": "SwiftLine National Freight Corp.",
+  "buyer_name": "Global Retail Group Inc.",
+  "invoice_date": "2026-10-18",
+  "currency": "USD",
+  "monthly_volume_shipments_to_date": 62,
+  "line_items": {
+    "linehaul": {
+      "description": "Route transit: Chicago, IL to Dallas, TX",
+      "billed_miles": 1450,
+      "billed_rate_per_mile": 2.85,
+      "billed_amount": 4132.50
+    },
+    "fuel_surcharge": {
+      "description": "National Fuel Index Adjustment",
+      "billed_percent": 18.0,
+      "billed_amount": 743.85
+    },
+    "detention": {
+      "description": "Unloading delay at destination dock",
+      "billed_hours": 4.0,
+      "billed_hourly_rate": 75.00,
+      "billed_amount": 300.00
+    },
+    "volume_discount": {
+      "description": "Volume Tier Rebate",
+      "billed_amount": 0.00
+    }
+  },
+  "total_billed_amount": 5176.35
+}

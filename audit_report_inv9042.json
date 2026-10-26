@@ -1,0 +1,56 @@
+{
+  "invoice_number": "INV-9042",
+  "vendor_name": "SwiftLine National Freight Corp.",
+  "buyer_name": "Global Retail Group Inc.",
+  "contract_id": "MSA-2026-US-LOG",
+  "total_billed": "5176.35",
+  "total_allowed": "3823.60",
+  "total_leakage": "1352.75",
+  "leakage_percent": "26.13",
+  "discrepancies": [
+    {
+      "category": "Linehaul Freight Rate Overcharge",
+      "billed_amount": "4132.50",
+      "allowed_amount": "3480.00",
+      "overcharge": "652.50",
+      "contract_clause": "Section 4.1 (Base Freight): Standard linehaul rates shall strictly not exceed $2.40 per route mile for Class-A dry van trailers.",
+      "explanation": "Billed at 2.85/mile vs contracted cap of 2.4/mile across 1450 miles. Mileage audit status: unverified_vendor_telemetry.",
+      "status": "needs_review"
+    },
+    {
+      "category": "Fuel Surcharge Cap Violation",
+      "billed_amount": "743.85",
+      "allowed_amount": "417.60",
+      "overcharge": "326.25",
+      "contract_clause": "Section 5.3 (Fuel Adjustment): Fuel surcharge is calculated strictly against base linehaul and is capped at a maximum of 12.0% regardless of national index fluctuations.",
+      "explanation": "Billed fuel percent (18.0%) exceeds contract ceiling (12.0%). Payable surcharge calculated on payable linehaul base ($3,480.00).",
+      "status": "needs_review"
+    },
+    {
+      "category": "Detention / Layover Overcharge",
+      "billed_amount": "300.00",
+      "allowed_amount": "100.00",
+      "overcharge": "200.00",
+      "contract_clause": "Section 6.2 (Detention & Wait Time): The initial 2.0 hours at origin or destination are free of charge. Excess hours are billable at $50.00/hour.",
+      "explanation": "Contract grants 2.0 free hours per stop (1 stop(s) = 2.0 free hrs). Billed 4.0 hrs @ 75.0/hr. Allowed: 2.0 billable hrs @ 50.0/hr.",
+      "status": "confirmed"
+    },
+    {
+      "category": "Unapplied Tier Volume Rebate",
+      "billed_amount": "0.00",
+      "allowed_amount": "-174.00",
+      "overcharge": "174.00",
+      "contract_clause": "Section 8.4 (Tiered Volume Rebate): A 5.0% rebate applies across all qualifying monthly billing if aggregate shipment volume exceeds 50 loads.",
+      "explanation": "Monthly volume (62) exceeds threshold (50). Qualified for 5.0% rebate (-$174.00). Vendor applied $0.00. Rebate calculated on this invoice's payable linehaul: $3,480.00.",
+      "status": "needs_review"
+    }
+  ],
+  "unreviewed_lines": [],
+  "warnings": [
+    "Vendor-supplied mileage cannot be independently verified (no actual_miles provided).",
+    "Vendor-supplied shipment count cannot be independently verified (no shipment_count provided)."
+  ],
+  "rebate_base_assumption": "Rebate calculated on this invoice's payable linehaul: $3,480.00.",
+  "reviewer_name": null,
+  "approval_date": null
+}

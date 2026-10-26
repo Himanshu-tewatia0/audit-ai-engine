@@ -1,0 +1,10 @@
+.env
+*.env
+.streamlit/secrets.toml
+audit_history.db
+*.db
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/

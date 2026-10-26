@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-8801",
+  "vendor_name": "SwiftLine National Freight Corp.",
+  "buyer_name": "Global Retail Group Inc.",
+  "invoice_date": "2026-10-05",
+  "monthly_volume_shipments_to_date": 28,
+  "total_billed_amount": 4189.80,
+  "line_items": {
+    "linehaul": {
+      "billed_miles": 1200,
+      "billed_rate_per_mile": 2.80,
+      "billed_amount": 3360.00
+    },
+    "fuel_surcharge": {
+      "billed_percent": 18.0,
+      "billed_amount": 604.80
+    },
+    "detention": {
+      "billed_hours": 3.0,
+      "billed_hourly_rate": 75.0,
+      "billed_amount": 225.00
+    },
+    "volume_discount": {
+      "billed_amount": 0.0
+    }
+  }
+}

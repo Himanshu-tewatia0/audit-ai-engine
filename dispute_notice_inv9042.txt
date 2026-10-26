@@ -1,0 +1,63 @@
+MEMORANDUM (DRAFT — INTERNAL REVIEW ONLY — DO NOT SEND WITHOUT APPROVAL)
+
+DATE:               October 25, 2026
+TO:                 Accounts Receivable, SwiftLine National Freight Corp.
+FROM:               Internal Audit & Procurement Recovery, Global Retail Group Inc.
+RE:                 Billing Discrepancy & Payment Adjustment Request for Invoice #INV-9042
+CONTRACT REFERENCE: MSA-2026-US-LOG
+
+EXECUTIVE SUMMARY: SUMMARY OF BILLING DISCREPANCIES & ADJUSTMENT REQUEST
+  Total Amount Billed on Invoice:           $5,176.35
+  Total Contractually Allowed Amount:       $3,823.60
+  TOTAL RECOVERABLE OVERCHARGE / LEAKAGE:   $1,352.75 (26.13%)
+
+SECTION 1: CONFIRMED FINDINGS (1. Confirmed Discrepancies):
+
+[1] DETENTION / LAYOVER OVERCHARGE
+    Billed Amount:      $300.00
+    Contract Allowed:   $100.00
+    Adjustment Due:     -$200.00
+    Contract Citation:  Section 6.2 (Detention & Wait Time): The initial 2.0 hours at origin or destination are free of charge. Excess hours are billable at $50.00/hour.
+    Audit Finding:      Contract grants 2.0 free hours per stop (1 stop(s) = 2.0 free hrs). Billed 4.0 hrs @ 75.0/hr. Allowed: 2.0 billable hrs @ 50.0/hr.
+
+SECTION 2: NEEDS-REVIEW / UNVERIFIED ITEMS (2. Items Pending Telemetry Verification):
+
+[R1] LINEHAUL FREIGHT RATE OVERCHARGE
+    Billed Amount:      $4,132.50
+    Contract Allowed:   $3,480.00
+    Potential Adjust.:  -$652.50
+    Contract Citation:  Section 4.1 (Base Freight): Standard linehaul rates shall strictly not exceed $2.40 per route mile for Class-A dry van trailers.
+    Finding Note:       Billed at 2.85/mile vs contracted cap of 2.4/mile across 1450 miles. Mileage audit status: unverified_vendor_telemetry.
+
+[R2] FUEL SURCHARGE CAP VIOLATION
+    Billed Amount:      $743.85
+    Contract Allowed:   $417.60
+    Potential Adjust.:  -$326.25
+    Contract Citation:  Section 5.3 (Fuel Adjustment): Fuel surcharge is calculated strictly against base linehaul and is capped at a maximum of 12.0% regardless of national index fluctuations.
+    Finding Note:       Billed fuel percent (18.0%) exceeds contract ceiling (12.0%). Payable surcharge calculated on payable linehaul base ($3,480.00).
+
+[R3] UNAPPLIED TIER VOLUME REBATE
+    Billed Amount:      $0.00
+    Contract Allowed:   -$174.00
+    Potential Adjust.:  -$174.00
+    Contract Citation:  Section 8.4 (Tiered Volume Rebate): A 5.0% rebate applies across all qualifying monthly billing if aggregate shipment volume exceeds 50 loads.
+    Finding Note:       Monthly volume (62) exceeds threshold (50). Qualified for 5.0% rebate (-$174.00). Vendor applied $0.00. Rebate calculated on this invoice's payable linehaul: $3,480.00.
+
+AUDIT WARNINGS & TELEMETRY NOTES:
+    • Vendor-supplied mileage cannot be independently verified (no actual_miles provided).
+    • Vendor-supplied shipment count cannot be independently verified (no shipment_count provided).
+
+    NOTE: Rebate calculated on this invoice's payable linehaul: $3,480.00.
+
+PROPOSED REMEDIATION & BILLING ADJUSTMENT:
+Based on this contractual compliance review, Global Retail Group Inc. proposes payment in the adjusted
+amount of $3,823.60 for invoice #INV-9042.
+Alternatively, please issue a formal credit memorandum in the amount of $1,352.75.
+
+This notice is subject to review and does not constitute a final payment decision.
+
+HUMAN APPROVAL GATE & AUDITOR CERTIFICATION:
+  Reviewed by:  ___________________________
+  Approved by:  ___________________________
+  Date:         ___________
+  Title:        ___________________________

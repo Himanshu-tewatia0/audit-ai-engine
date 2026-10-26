@@ -1,0 +1,29 @@
+{
+  "_metadata": {
+    "data_type": "SAMPLE",
+    "purpose": "Synthetic demonstration data for AuditAI prototype testing ONLY.",
+    "real_world_note": "This contract is FICTITIOUS. Real enterprise MSAs contain hundreds of pages of legal prose, complex tariff rate sheets, lane-specific pricing, and multi-tiered index adjustment formulas. This simplified fixture tests the engine's core logic but does NOT represent the complexity of real-world contracts.",
+    "leakage_note": "The paired sample invoice (INV-9042) is deliberately engineered to show ~26% leakage for demonstration purposes. Real-world industry recovery rates are typically 1% to 3% of total spend, not 26%."
+  },
+  "contract_id": "MSA-2026-US-LOG",
+  "buyer_name": "Global Retail Group Inc.",
+  "vendor_name": "SwiftLine National Freight Corp.",
+  "effective_date": "2026-01-01",
+  "currency": "USD",
+  "terms": {
+    "base_rate_per_mile": 2.40,
+    "max_fuel_surcharge_percent": 12.0,
+    "free_detention_hours": 2.0,
+    "detention_hourly_rate": 50.00,
+    "volume_discount_threshold_shipments": 50,
+    "volume_discount_percent": 5.0,
+    "early_payment_discount_percent": 2.0,
+    "early_payment_window_days": 10
+  },
+  "clauses": {
+    "section_4_1": "Section 4.1 (Base Freight): Standard linehaul rates shall strictly not exceed $2.40 per route mile for Class-A dry van trailers.",
+    "section_5_3": "Section 5.3 (Fuel Adjustment): Fuel surcharge is calculated strictly against base linehaul and is capped at a maximum of 12.0% regardless of national index fluctuations.",
+    "section_6_2": "Section 6.2 (Detention & Wait Time): The initial 2.0 hours at origin or destination are free of charge. Excess hours are billable at $50.00/hour.",
+    "section_8_4": "Section 8.4 (Tiered Volume Rebate): A 5.0% rebate applies across all qualifying monthly billing if aggregate shipment volume exceeds 50 loads."
+  }
+}
